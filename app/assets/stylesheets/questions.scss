@@ -1,0 +1,75 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background: url('arab_tile2X.png');
+  background-color: #d7f8f7;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.title {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.question {
+  background-color: #fab2ac;
+  padding: 30px;
+  width: 50%;
+  margin: 0 auto;
+  h2 {
+  font-family: 'Elsie', cursive;
+  }
+}
+.answer {
+  background-color: #eda1c1;
+  padding: 30px;
+  width: 50%;
+  margin: 0 auto;
+h2 {
+  font-family: 'Fredericka the Great', cursive;
+  }
+}
+
+.button {
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+form {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.ask {
+  width: 30%;
+  height: 40px;
+  margin: 0 auto;
+  background-color: #e36488;
+  padding: 44px;
+  position: absolute;
+  top: 40%;
+  left: 33%;
+  border-radius: 6px;
+
+}
+
+#input {
+  height: 30px;
+  width: 70%;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  font-family: 'Elsie', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
